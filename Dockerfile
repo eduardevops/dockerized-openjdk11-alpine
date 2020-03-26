@@ -12,4 +12,4 @@ ENV PATH $PATH:/usr/lib/jvm/java-11-openjdk/jre/bin:/usr/lib/jvm/java-11-openjdk
 RUN set -x \
 	  && apk --no-cache add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
 
-CMD ["java", "Main"]
+CMD ["jshell"]
