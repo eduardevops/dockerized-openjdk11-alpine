@@ -13,4 +13,4 @@ ENV PATH $JAVA_HOME/bin:$PATH
 RUN set -x \
 	  && apk --no-cache add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
 
-CMD ["java"]
+CMD ["java", "-jar"]
