@@ -6,7 +6,8 @@ ENV LANG C.UTF-8
 
 # Configuration variables
 ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk/jre
-ENV PATH $PATH:/usr/lib/jvm/java-11-openjdk/jre/bin:/usr/lib/jvm/java-11-openjdk/bin
+# ENV PATH $PATH:/usr/lib/jvm/java-11-openjdk/jre/bin:/usr/lib/jvm/java-11-openjdk/bin
+ENV PATH $JAVA_HOME/bin:$PATH
 
 # Installi Java
 RUN set -x \
