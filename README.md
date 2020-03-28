@@ -12,5 +12,5 @@
 This repo provides unofficial lightweight OpenJDK11 Docker Images. <br>
 
 For official and regular JDK and JRE images you can use one of the following. <br>
-![AdoptOpenJDK](https://hub.docker.com/_/adoptopenjdk) <br>
-![OpenJDK](https://hub.docker.com/_/openjdk)
+[AdoptOpenJDK](https://hub.docker.com/_/adoptopenjdk) <br>
+[OpenJDK](https://hub.docker.com/_/openjdk)
