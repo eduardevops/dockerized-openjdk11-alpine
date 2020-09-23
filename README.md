@@ -1,6 +1,6 @@
 ### OpenJDK 11
 
-![Logo](./assets/logo.jpg)
+<!-- ![Logo](./assets/logo.jpg) -->
 
 <br>
 
